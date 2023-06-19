@@ -1,9 +1,7 @@
 object test{
   //var Tprice:Int=15
   var Attendence:Int =0
-  var Pcost:Int=500
-  var ax:Int=0
-  def ticketprice(Tprice : Int)={
+  def ticketprice(Tprice : Int)={  // calculate attentdence according to a ticket price
     if(Tprice==10){
       Attendence=120+20
     }
