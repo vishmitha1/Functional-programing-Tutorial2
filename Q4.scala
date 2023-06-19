@@ -11,11 +11,11 @@ object test{
       Attendence=120 
   }
 
-  def cost(Tprice : Int)={
+  def cost(Tprice : Int)={        //calculate cost 
     ticketprice(Tprice)
     500+Attendence*3
   }
-  def profit(Tprice : Int)={
+  def profit(Tprice : Int)={      // canculate profit according to attendence and ticket price
     Attendence*Tprice - cost(Tprice)
   }
   def bestprice(t1 :Int,t2 :Int) : Int={
