@@ -18,8 +18,8 @@ object test{
   def profit(Tprice : Int)={      // canculate profit according to attendence and ticket price
     Attendence*Tprice - cost(Tprice)
   }
-  def bestprice(t1 :Int,t2 :Int) : Int={
-    var val1 :Int=profit(t1)
+  def bestprice(t1 :Int,t2 :Int) : Int={    // calculate best ticket price 
+    var val1 :Int=profit(t1)        
     var val2 :Int=profit(t2)
     if (val1>val2)
       t1
