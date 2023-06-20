@@ -29,7 +29,7 @@ object test{
   }
   def main(args:Array[String])={
     var result=bestprice(bestprice(15,20),10);
-    println(result)
+    println(s"Best ticket price is : $result")
     
   }
 }
